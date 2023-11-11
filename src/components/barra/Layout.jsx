@@ -7,7 +7,7 @@ const Layout = () => {
       <nav className={styles.navbar}>
         <ul>
           <li>
-            <Link to="/">Inicio</Link>
+            <Link to="/inicio">Inicio</Link>
           </li>
           <li>
             <Link to="/productos">Productos</Link>
