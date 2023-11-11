@@ -15,6 +15,9 @@ const Inicio = () => {
 
 
 
+
+
+
   const numeroWhatsApp = '573174327691'; // Reemplaza con el número de WhatsApp al que deseas redirigir
 
   const handleHacerPedidoClick = () => {
@@ -28,6 +31,19 @@ const Inicio = () => {
 
   return (
     <>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11397332939"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11397332939');
+</script> 
+
+
       {/* MAIN (Center website) */}
       <div className={styles.main}>
         <h1>toallapp</h1>
