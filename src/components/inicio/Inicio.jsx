@@ -14,6 +14,14 @@ import mas5 from "./mas5.jpg"
 const Inicio = () => {
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11397332939"></script>
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11397332939');
+
 
 
 
@@ -34,14 +42,7 @@ const Inicio = () => {
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11397332939"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'AW-11397332939');
-</script> 
 
 
       {/* MAIN (Center website) */}
