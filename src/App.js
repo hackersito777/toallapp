@@ -8,8 +8,25 @@ import Contacto from './components/contacto/Contacto';
 
 
 function App() {
+
+
+
+
+  
   return (
+
+
+
+    
     <div className="App">
+
+
+
+
+
+
+
+    
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="inicio" element={<Inicio />} />
