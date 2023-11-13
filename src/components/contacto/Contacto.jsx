@@ -1,3 +1,6 @@
+import styles from "./contacto.module.css"
+
+
 const Contacto = () => {
 
     const numeroWhatsApp = '573174327691'; // Reemplaza con el número de WhatsApp al que deseas redirigir
