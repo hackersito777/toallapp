@@ -1,9 +1,17 @@
 const Contacto = () => {
 
+    const numeroWhatsApp = '573174327691'; // Reemplaza con el número de WhatsApp al que deseas redirigir
+
+    const handleHacerPedidoClick = () => {
+      const urlWhatsApp = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}`;
+      window.location.href = urlWhatsApp;
+    };
+
+
     return(
     <>
     
-    <h1> Contacto</h1>
+    <button className={styles.neonbutton} onClick={handleHacerPedidoClick}>WhatsApp</button>
     
     </>
     
