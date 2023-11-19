@@ -51,7 +51,7 @@ const Inicio = () => {
             </div>
           </div>
           <div className={styles.column}>
-            <div className="content">
+            <div className={styles.content}>
               <img src={microfibradelgado} alt="Lights" style={{ width: "100%" }} />
               <h3>Toalla Limpion Microfibra Delgado</h3>
               <p>1 Unidad 10.000. 4 Unidades X 30.000 COP</p>
