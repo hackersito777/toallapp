@@ -27,10 +27,6 @@ const Layout = () => {
             <Link to="/acercadenosotros">Acerca De Nosotros</Link>
           </li>
           <li>
-            <Link to={handleHacerPedidoClick}>Pedido</Link>
-          </li>
-
-          <li>
             <Link to="/contacto">Contacto</Link>
           </li>
         </ul>
