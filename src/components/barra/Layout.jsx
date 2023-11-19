@@ -3,13 +3,6 @@ import styles from "./layout.module.css";
 
 const Layout = () => {
 
-  const numeroWhatsApp = '573174327691'; // Reemplaza con el número de WhatsApp al que deseas redirigir
-
-  const handleHacerPedidoClick = () => {
-    const urlWhatsApp = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}`;
-    window.location.href = urlWhatsApp;
-  };
-
 
 
 
